@@ -1,0 +1,259 @@
+body {
+  font-family: 'Caveat', cursive;
+}
+section {
+  background-color: rgb(230, 199, 153);
+  
+}
+.hero {
+  background-image: url('../src/images/platdecanard.jpeg');
+  width: 100%;
+  height: 1000px;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 40px;
+}
+footer {
+  height: 500px;
+  background-color: #1c1d25;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 20px;
+}
+ul.show {
+  display: block;
+}
+li {
+  text-decoration: none;
+  font-size: 26px;
+}
+h1 {
+  font-size: 80px;
+  font-family: 'Arizonia', cursive;
+  margin: 0;
+}
+h2 {
+  font-size: 40px;
+}
+h3, h4, h5, h6 {
+  font-size: 28px;
+}
+p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 300;
+}
+.subtext {
+  font-size: 18px;
+  font-weight: 300;
+}
+.hero-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+.button {
+  width: 200px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: #dd8528;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+.button:hover {
+  background-color: #ef744b;
+}
+.button:active {
+  background-color: #A9A9A9;
+  color: #808080
+}
+.socials {
+  padding-bottom: 200px;
+  margin: 30px
+}
+.social {
+  margin: 20px;
+}
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+.sub-section-project {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+.headshot {
+  width: 250px;
+  border-radius: 150px;
+}
+.headshot-container {
+  display: flex;
+  align-items: center;
+}
+.project-card {
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 5px 20px rgb(155, 152, 152);
+  margin: 10px;
+}
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.project-image {
+  margin-top: 30px;
+  width: 220px;
+  border-radius: 125px;
+}
+.project-link {
+  text-decoration: none;
+  color: #ef744b
+}
+a {
+  text-decoration: none;
+  font-weight: 800;
+  color: white;
+}
+.hamburger {
+  display: none;
+}
+.hamburger:focus {
+  outline: 0;
+}
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+}
+.ul {
+  display: none;
+  background-color: #575968;
+  margin: 0;
+}
+nav {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #575968;
+}
+.logo{
+  display: none;
+}}

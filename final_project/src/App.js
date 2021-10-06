@@ -82,15 +82,16 @@ function App() {
         <div className="project-container">
             <div className="project-card">
               <section className="controls">
+                <h3>Personalized Menu</h3>
                 <input
                 type="number"
                 placeholder="Calories (e.g. 3000)" 
                 onChange={handleChange} />
               </section>
               <button onClick={getMealData}>Get Your Personalized Meal Plan</button>
-              {mealData && <MealList mealData = {mealData} />}
+              {/*mealData && <MealList mealData = {mealData} />*/}
                 <img className="project-image" src={menu} atl="Personalized Menu" />
-                <h3>Personalized Menu</h3>
+                
                 <p className="subtext"><a className="project-link" href="personalizedmenu.html">View Here</a></p>
             </div>
             <div className="project-card">
@@ -98,17 +99,11 @@ function App() {
                 <h4>Chef at Home</h4>
                 <p className="subtext"><a className="project-link" href="chefathome.htlm">View Here</a></p>
             </div>
-            <div className="project-card">
-                <img className="project-image" src="src/images/duck.jpeg" alt="Cooking Course" />
-                <h5>Cooking Course</h5>
-                <p className="subtext"><a className="project-link" href="cookingcourse.html">View Here</a></p>
-            </div>
-            <div className="project-card">
-                <img className="project-image" src={solidarity} alt="Solidarity Project" />
-                <h6>Solidarity</h6>
-                <p className="subtext"><a className="project-link" href="solidarity.html">View Here</a></p>
-            </div>
+                     
         </div>
+        <div>
+          {mealData && <MealList mealData = {mealData} />}  
+        </div> 
     </section>
     <footer>
        

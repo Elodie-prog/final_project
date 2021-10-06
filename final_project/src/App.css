@@ -113,7 +113,6 @@ nav{
 ul {
   display: flex;
   list-style-type: none;
-  width: 500px;
   justify-content: space-around;
   font-size: 20px;
 }
@@ -122,19 +121,17 @@ ul.show {
 }
 li {
   text-decoration: none;
-  font-size: 26px;
+  font-size: 20px;
 }
 h1 {
-  font-size: 80px;
+  font-size: 50px;
   font-family: 'Arizonia', cursive;
   margin: 0;
 }
 h2 {
   font-size: 40px;
 }
-h3, h4, h5, h6 {
-  font-size: 28px;
-}
+
 p {
   margin: 0;
   font-size: 30px;
@@ -200,7 +197,6 @@ p {
 }
 .project-card {
   width: 300px;
-  height: 500px;
   box-shadow: 5px 5px 20px rgb(155, 152, 152);
   margin: 10px;
 }
@@ -226,7 +222,9 @@ p {
 a {
   text-decoration: none;
   font-weight: 800;
+  font-size: 30px;
   color: white;
+  padding: 25px;
 }
 .hamburger {
   display: none;

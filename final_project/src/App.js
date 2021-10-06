@@ -80,14 +80,14 @@ function App() {
     <section className="sub-section-project">
         <h2>Project</h2>
         <div className="project-container">
-            <div className="App">
+            <div className="project-card">
               <section className="controls">
                 <input
                 type="number"
-                placeholder="Calories (e.g. 2000)" 
+                placeholder="Calories (e.g. 3000)" 
                 onChange={handleChange} />
               </section>
-              <button onClick={getMealData}>get Daily Meal Plan</button>
+              <button onClick={getMealData}>Get Your Personalized Meal Plan</button>
               {mealData && <MealList mealData = {mealData} />}
                 <img className="project-image" src={menu} atl="Personalized Menu" />
                 <h3>Personalized Menu</h3>

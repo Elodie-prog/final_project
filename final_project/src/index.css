@@ -74,7 +74,6 @@ ul {
 }
 
 img {
-  width: 100%;
   margin-bottom: 1rem;
 }
 
@@ -92,24 +91,12 @@ article {
   margin-bottom: 1rem;
 }
 
-a {
-  text-decoration: none;
-  background-color: #dd8528;
-  color: white;
-  width: fit-content;
-  padding: 0.5rem 1rem;
-}
-
-a:hover {
-  cursor: pointer;
-  background-color: #ef744b;
-}
-
 @media only screen and (max-width: 550px) {
   .meals {
     flex-direction: column;
     align-items: center;
   }
+
 
   .nutrients ul {
     display: flex;
